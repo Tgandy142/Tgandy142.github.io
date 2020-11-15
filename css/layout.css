@@ -78,6 +78,10 @@ header{
     min-height: 160px;
     height: 90%;
 }
+.contact_info_wrapper img{
+    height: 120px;
+    width: 120px;
+}
 .contact_info{
     display: flex;
     justify-content: space-evenly;
