@@ -1,6 +1,7 @@
 * {
     font: 16px 'Open Sans', sans-serif;
     color: #eee;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
 body {
@@ -21,15 +22,3 @@ h3{
 .headshot{
     background-color: darkviolet;
 }
-/* .About_Me_Wrapper {
-    background-color: #0f0;
-} */
-/* .Projects_Wrapper {
-    background-color: #00f;
-} */
-/* .contact_info_wrapper{
-    background-color: darkgreen;
-} */
-/* .footer{
-    background-color: blueviolet;
-} */

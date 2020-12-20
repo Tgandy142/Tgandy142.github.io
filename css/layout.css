@@ -14,8 +14,9 @@
     max-width: 1250px;
     width: 90%;
     grid-template-columns: auto;
-    grid-template-rows: 10% 25% 45% 10% 10%;
-    min-height: 1600px;
+    grid-template-rows: 10% 20% 50% 15% 5%;
+    /* min-height: 2400px; */
+    height: fit-content;
 }
 header{
     display: grid;
@@ -46,28 +47,28 @@ header{
     display: grid;
     grid-template-rows: 1fr 7fr;
     max-width: 100%;
-    min-height: 775px;
-    height: 90%;
+    min-height: 1550px;
+    height: fit-content;
     justify-content: center;
 }
 #Projects_Header{
     justify-self: center;
 }
-.Project_one{
+.Project_one, .Project_two{
     display: grid;
     grid-template-columns: 1fr 3fr;
 }
-.project_one_overview{
+.project_one_overview, .project_two_overview{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     margin: 5px;
 }
-.project_one_skills{
+.project_one_skills, .project_two_skills{
     display: flex;
     margin: 5px;
 }
-#Project_one_screenshot{
+.Projects img {
     max-width: 100%;
     max-height: 100%;
 }
@@ -77,6 +78,7 @@ header{
     max-width: 100%;
     min-height: 160px;
     height: 90%;
+    align-items: flex-end;
 }
 .contact_info_wrapper img{
     height: 120px;
@@ -85,6 +87,7 @@ header{
 .contact_info{
     display: flex;
     justify-content: space-evenly;
+    margin-top: 10px;
 }
 #contact_info_header{
     display: flex;
