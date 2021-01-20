@@ -12,9 +12,9 @@ const displayHeader = function () {
     headerList.classList.add("header_list_items");
 
     const aboutMe = document.createElement("li");
-    aboutMe.innerHTML = `<a href="#About_Me_Header">About Me</a>`;
+    aboutMe.innerHTML = `<a id="aboutMe" >About Me</a>`;
     const projects = document.createElement("li");
-    projects.innerHTML = `<a href="#Projects">Projects</a>`;
+    projects.innerHTML = `<a id="projects">Projects</a>`;
     const contactInfo = document.createElement("li");
     contactInfo.innerHTML = `<a href="#contact_info_header">Contact Me</a>`;
 
